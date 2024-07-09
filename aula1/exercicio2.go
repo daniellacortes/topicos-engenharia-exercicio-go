@@ -1,10 +1,5 @@
 package main
-
-import
-(
-	"errors"
-	"fmt"
-)
+import ("errors" "fmt" )
 
 func main ()
 {
@@ -18,7 +13,6 @@ func main ()
 	{
 		fmt.Println ("Tamanho da String: ", lengh)
 	}
-
 }
 
 func CountString (s string) (int, error)
