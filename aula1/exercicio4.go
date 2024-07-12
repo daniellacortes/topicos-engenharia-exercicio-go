@@ -1,5 +1,5 @@
 package main
-import ("errors" "fmt")
+import ("errors"; "fmt")
 
 func divisao(a, b int) (int, error) {
 	if b == 0 {
@@ -12,7 +12,7 @@ func main() {
 	a := [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 0}
 	b := [10]int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 
-    for i:= 0, i < len(a); i++ {
+    for i:= 0; i < len(a); i++ {
 		v, err := divisao(a[i], b[i])
 		
 		if err != nil {
